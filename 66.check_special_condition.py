@@ -16,3 +16,7 @@ if sum+prod ==n :
     print("yes")
 else:
     print("no")
+
+
+
+

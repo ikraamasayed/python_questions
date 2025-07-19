@@ -1,7 +1,7 @@
 def isprime(num):
     for i in range (2,num):
         if num % i == 0:
-            return False 
+            return False
     return True
 
 def prime_generator(n):
@@ -11,7 +11,7 @@ def prime_generator(n):
             yield num 
             n-=1
         num+=1
-x = int(10)
+x = int(input("Enter the no of prime num required"))
 it = prime_generator(x)
 for e in it:
     print(e,end=" ")
